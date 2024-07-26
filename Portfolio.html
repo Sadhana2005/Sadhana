@@ -1,17 +1,56 @@
 <!DOCTYPE html>
 <head>
     <style>
-        table,th,td{
-            border: 1px solid black; 
+        body{
+            background-size: cover;
         }
+        table,th,td{
+            border: 0px solid black;
+            text-align: center; 
+            justify-content: center;
+            padding-left: 30px;
+            padding-right: 30px;
+            margin: 0px;
+        }
+        th{
+            background-color: rgb(90, 207, 224);
+            font-size: 30px;
+        }
+        td{
+            background-color: rgb(241, 131, 206);
+            font-size: 20px;
+        }
+        h2{
+            text-align: center;
+            font-size: 35px;
+        }
+        .sk{
+            font-size: 30px; 
+            justify-content: center;
+            padding-left: 60px;
+            padding-right: 60px;
+            margin: 0px;
+            color:rgb(18, 87, 190)
+        }
+        .skl{
+            font-size: 25px; 
+            justify-content: center;
+            padding-left: 60px;
+            padding-right: 60px;
+            margin: 0px;
+            color: rgb(48, 5, 88);
+            
+        } 
+
         img{
-         margin: 10px;
-         border: 20px;
+         margin: 50px;
+         border: 60px;
          border-color: rgb(165, 42, 122);
          border-width: 10px;
-         border-style: none;
+         border-style: inset;
          padding: 0%;
          border-radius: 50px;
+         display: inline;
         }
         .flex{
             display: flex;
@@ -23,6 +62,10 @@
         .ul{
             list-style-type: none;
             display: flex;
+            justify-content: center;
+            padding-left: 60px;
+            padding-right: 60px;
+            margin: 0px;
         }
         .li{
             padding-left: 15px;  
@@ -34,85 +77,155 @@
             text-decoration: none;
             color: white;
         }
+       p{
+        margin: 0px;
+        padding-left: 500px;
+        padding-right: 500px;
+        text-align: justify;
+        font-size: 20px;
+       }
+       .n1{
+        display: flex;
+       }
+       img{
+        display: inline;
+       
+       }
+       .n2{
+        padding-top: 150px;
+        padding-bottom: 150px;
+        padding-left: 250px;
+        padding-right: 150px;
+        line-height: 25px;
+        color: rgb(136, 24, 104);
+       }
+       .new{
+        list-style-type: none;
+       }
+       .l{
+        padding-left: 650px;
+       }
    </style>
 </head>
 <body background="https://wallpapercave.com/wp/EBjJfnf.jpg">
   <!-- <h1 id="education">Education</h1>-->
+   
    <nav>
       <div class="flex">
          <ul class="ul">
-          <li class="li"><a href="DAY2.html">Home</a></li>
-          <li class="li"><a href="">About</a></li>
+          <li class="li"><a href="#home">Home</a></li>
+          <li class="li"><a href="#about">About</a></li>
           <li class="li"><a href="#education">Education</a></li>
-          <li class="li"><a href="">Skills</a></li>
-          <li class="li"><a href="">View Resume</a></li>
-          <li class="li"><a href="">Contact</a></li>
+          <li class="li"><a href="#skills">Skills</a></li>
+          <li class="li"><a href="Resume_cv[1].pdf">View Resume</a></li>
+          <li class="li"><a href="#contact">Contact</a></li>
          </ul>
-      </div>
-  </nav>
-    <a href="Resume_cv[1].pdf" target="_blank">
-    <img src="images.jpeg" alt="image" height="250px" width="250px"></a>
-    <!--<h2>Education</h2>-->
-    <table style="width: 100%">
-        <tr>
-            <th>S.No</th>
-            <th>Eduation</th>
-            <th>Institution</th>
-            <th>Percentage</th>
-            <th>Passout Year</th>
-        </tr>
-        <tr>
-           <td> 
-                <label for="name">1.</label>
-           </td>
-             <td>  
-                <label for="name">B.E ECE(3rd year)</label>
-             </td> 
-             <td>  
-                <label for="name">Sri Krishna College of Engineering and Technology</label>
-             </td>
-             <td>  
-                <label for="name">8.4%</label>
-             </td>
-             <td>  
-                <label for="name">2026</label>
-             </td>
-        </tr>
-        <tr>
-           <td> 
-                <label for="name">2.</label>
-           </td>
-             <td>  
-                <label for="name">HSC</label>
-             </td> 
-             <td>  
-                <label for="name">Sathya Sai Matric Higher Secondary School</label>
-             </td>
-             <td>  
-                <label for="name">95.16%</label>
-             </td>
-             <td>  
-                <label for="name">2022</label>
-             </td>
-        </tr>
-        <tr>
-           <td> 
-                <label for="name">3.</label>
-           </td>
-             <td>  
-                <label for="name">SSLC</label>
-             </td> 
-             <td>  
-                <label for="name">Sri Giri Easwara Matric School</label>
-             </td>
-             <td>  
-                <label for="name">86.6%</label>
-             </td>
-             <td>  
-                <label for="name">2020</label>
-             </td>
-        </tr>
+        </div>
        
-    </table>
+        
+    </nav>
+    <div class="n1">
+
+        <img src="simg.jpg" alt="image" height="300px" width="300px">
+        <p style="font-size: 40px;"class="n2"><b>Hey!I'm Sadhana</b><br><br><b>Welcome to a glimpse of my portfolio!</b></p>
+    </div>
+   <h2 id="about" style="color: blue;"><b>About</b></h2>
+   <p style="color: rgb(48, 5, 88);">Dedicated and motivated student with strong foundation,seeking to academic knowledge and seeking internship or entry-level
+    position to apply my skills and gain practical experience.Eager to contribute to Innovative projects.I am driven by a Passion 
+    for continous learning and enhancing my professional growth.I am Enthusiastic about the opportunity to work with industry experts,
+    contribute to impactful solutions,and prepare for successful career in engineering.
+   </p>
+   <h2  id="education" style="color: blue;"><b>Education</b></h2>
+   <center><table style="width: 10%">
+    <tr>
+        <th>S.No</th>
+        <th>Eduation</th>
+        <th>Institution</th>
+        <th>Percentage</th>
+        <th>Passout Year</th>
+    </tr>
+    <tr>
+       <td> 
+            <label for="name">1.</label>
+       </td>
+         <td>  
+            <label for="name">B.E ECE(3rd year)</label>
+         </td> 
+         <td>  
+            <label for="name">Sri Krishna College of Engineering and Technology</label>
+         </td>
+         <td>  
+            <label for="name">8.4%</label>
+         </td>
+         <td>  
+            <label for="name">2026</label>
+         </td>
+    </tr>
+    <tr>
+       <td> 
+            <label for="name">2.</label>
+       </td>
+         <td>  
+            <label for="name">HSC</label>
+         </td> 
+         <td>  
+            <label for="name">Sathya Sai Matric Higher Secondary School</label>
+         </td>
+         <td>  
+            <label for="name">95.16%</label>
+         </td>
+         <td>  
+            <label for="name">2022</label>
+         </td>
+    </tr>
+    <tr>
+       <td> 
+            <label for="name">3.</label>
+       </td>
+         <td>  
+            <label for="name">SSLC</label>
+         </td> 
+         <td>  
+            <label for="name">Sri Giri Easwara Matric School</label>
+         </td>
+         <td>  
+            <label for="name">86.6%</label>
+         </td>
+         <td>  
+            <label for="name">2020</label>
+         </td>
+    </tr>
+</table>
+<h2 id="skills" style="color: blue;">Skills</h2>
+<!-- <h2 style="color:rgb(18, 87, 190)"></h2> -->
+/
+
+
+    
+    <h2 class="sk">Programming Languages</h2><br>
+    <ul class="new">
+            <li class="skl">1. C++</li><br>
+            <li class="skl">2. Java</li><br>
+            <li class="skl">3. Typescript</li><br>
+            <li class="skl">4. Javascript</li><br>
+            <li class="skl">5. DSA</li><br>
+    </ul>
+    <h2 class="sk">Query Language</h2><br>
+    <ul class="new">
+            <li class="skl">1. MySql</li><br>
+    </ul>
+    <h2 class="sk">Front End</h2><br>
+    <ul class="new">
+            <li class="skl">1. HTML and CSS</li><br>
+    </ul>
+    <h2 class="sk">Tools</h2><br>
+    <ul class="new">
+            <li class="skl">1. VsCode</li>
+            <li class="skl">2. Git</li>
+            <li class="skl">3. Github</li>
+</ul>
+<h2 id="contact" style="color: blue;">Contact</h2>
+<p class="l" style="color: rgb(48, 5, 88);">7094322314</p>
+<p class="l" style="color: rgb(48, 5, 88);">sadhanalakshmanan560@gmail.com</p>
 </body> 
 </html>
