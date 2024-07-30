@@ -1,0 +1,15 @@
+let a=5;
+let b=5;
+console.log(a+b);
+let a1=5;
+let b1=5;
+console.log(a1-b1);
+let a2=5;
+let b2=5;
+console.log(a2*b2);
+let a3=5;
+let b3=5;
+console.log(a3/b3);
+let a4=5;
+let b4=5;
+console.log(a4%b4);
