@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  padding: 25px;
+  background-color: white;
+  color: black;
+  font-size: 25px;
+}
+
+.sk {
+  background-color: black;
+  color: white;
+}
+
+h2 {
+  padding-right: 280px;
+  padding-left: 290px;
+  padding-top: 10px;
+}
+
+p {
+  padding-right: 200px;
+  padding-left: 200px;
+  padding-top: 10px;
+}
+
+button {
+  border-radius: 25px;
+}
+
+.sk1 {
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+}
+</style>
+</head>
+<body>
+
+<h2>Dark/Light Mode Switch</h2>
+<p>Click the button to switch between dark and light mode.</p>
+
+<div class="sk1">
+  <button onclick="sk()">Turn on dark mode</button>
+</div>
+
+<script>
+function sk() {
+   var element = document.body;
+   element.classList.toggle("sk");
+}
+</script>
+
+</body>
+</html>
